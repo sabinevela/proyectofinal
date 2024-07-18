@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportar Problema - NutriPets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/problema.css">
+</head>
+<body>
+    <header>
+          </ul>
+        <div class="container">
+            <h1 class="text-center text-white py-4">Reportar Problema</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form action="submit_form.php" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="problema">Descripción del Problema:</label>
+                            <textarea id="problema" name="problema" class="form-control" rows="6" required></textarea>
+                        </div>
+                        <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Enviar</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="text-center">
+        <a href="index.html" class="btn btn-primary">Regresar a la página principal</a>
+    </div>
+    <hr><br>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Nuestra tienda de comida para mascotas</h3>
+                <p>Encuentra los mejores alimentos y accesorios para tu mascota en nuestra tienda especializada.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horario de atención</h3>
+                <p>Lunes a Viernes: 9:00 AM - 6:00 PM<br>
+                Sábados y Domingos: Cerrado</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos en redes sociales</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/?locale=es_LA">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://x.com/login?mx=2">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Tu Tienda de Mascotas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/problema.js"></script>
+</body>
+</html>

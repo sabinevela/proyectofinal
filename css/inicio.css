@@ -1,0 +1,207 @@
+
+.inicio-pag{
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: "Kanit";
+    color: beige;
+    
+    
+}
+
+.texto-inicio{
+    font-family: "Kanit";
+    text-align: center;
+
+}
+.texto-siguiente{
+    color: azure;
+     font-family: "Kanit";
+    text-align: center;
+    background-color: #000000;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.footer-section p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+.footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    color: #666;
+    font-size: 12px;
+}
+
+.imagen {
+    text-align: center; 
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.imagen img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.imagen img:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
+.footer-pedidos {
+    background-color: #000000; 
+    color: white; 
+    padding: 20px 0;
+}
+.footer-pedidos-content {
+    font-family: "Kanit";
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-pedidos-logo {
+    flex: 1 1 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+.footer-pedidos-info {
+    flex: 1 1 50%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.footer-pedidos-social a:hover {
+    background-color: black}
+
+    .spinners-container {
+        text-align: center;
+    }
+    .spinner-grow {
+        margin: 10px;}
+
+        .texto-comida{
+            color: white;
+            text-align: center;
+            font-family: "Kanit";
+          
+        }
+
+        .texto1{
+            color: white;
+            font-family: "Kanit";
+        }
+
+        .image-container {
+            position: relative;
+            width: 300px; 
+            height: 200px;
+            overflow: hidden;
+        }
+        .image-container img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        .image-container:hover img {
+            transform: scale(1.1); 
+            filter: brightness(1.3); 
+        }
+
+        .contenedor-texto{
+            background-color: #000000;
+        }
+
+        .texto2{
+            color: white;
+            font-family: "Kanit";
+
+        }
+
+        .image-container2 {
+            position: relative;
+            width: 300px; 
+            height: 200px; 
+            overflow: hidden;
+        }
+        .image-container2 img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        .image-container2:hover img {
+            transform: scale(1.1); 
+            filter: brightness(1.3); 
+        }
+
+        .texto3{
+            color: white;
+            font-family: "Kanit";
+        }
+
+        .image-container3 {
+            position: relative;
+            width: 300px; 
+            height: 200px;
+            overflow: hidden;
+        }
+        .image-container3 img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        .image-container3:hover img {
+            transform: scale(1.1); 
+            filter: brightness(1.3); 
+        }
+
+        

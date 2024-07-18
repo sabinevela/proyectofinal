@@ -1,0 +1,104 @@
+
+.nosotros-texto{
+    background-color: pink;
+    text-align: center;
+    font-family: "Kanit";
+}
+
+.parrafo{
+    text-align: center;
+    font-family: "Kanit";
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px; /* Ajusta la altura según tus necesidades */
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+}
+.carousel-text {
+    position: absolute;
+    bottom: 20px; /* Ajusta la distancia desde abajo */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 10px;
+    width: 80%; /* Ancho del texto */
+    max-width: 600px; /* Ancho máximo del texto */
+}
+.carousel-text h2 {
+    font-size: 1.8rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior del título */
+}
+.carousel-text p {
+    font-size: 1rem; /* Tamaño del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.footer-section p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+.footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    color: #666;
+    font-size: 12px;
+}
+.texto-caru{
+    font-family: "Kanit";
+    text-align: center;
+
+}
+
+.texto-caru2{
+    font-family: "Kanit";
+    text-align: center;
+
+}
+.texto-caru3{
+    font-family: "Kanit";
+    text-align: center;
+
+}
